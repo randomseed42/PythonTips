@@ -21,14 +21,15 @@ Note the difference of `cython` and `Cython`
 
 ### Install Visual C++
 
+[Visual Studio 2019 Community](https://visualstudio.microsoft.com/downloads/)
+or
 [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
 
-You need:
-- MSBuild 工具
-- C++ 生成工具核心功能
-- C++ 2019 可再发行程序包更新
-- MSVC v142 – VS 2019 C++ x64/x86 生成工具(v14.25)
-- Windows 10 SDK (10.0.18362.0)
+At minimal, you need (you can choose the latest version number):
+- MSVC v142 – VS 2019 C++ x64/x86 build tools (v14.25)
+    this will provide `vcvarsall.bat` in `c:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build`
+- Windows 10 SDK (10.0.19041.0)
+    this will provide `basetsd.h` in `c:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared`
 
 ### Try it
 
